@@ -1,4 +1,4 @@
-package JavaIntro;
+package JavaIntro.Basic;
 
 import java.util.Scanner;
 
@@ -11,5 +11,6 @@ public class sumofnum {
     int num2 = value.nextInt();
     int sum = num1 + num2;
     System.out.println("The sum of the two numbers is: " + sum);
+    value.close();
   }
 }
