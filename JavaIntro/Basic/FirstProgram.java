@@ -1,4 +1,4 @@
-package JavaIntro;
+package JavaIntro.Basic;
 
 public class FirstProgram {
   public static void main(String[] args) {

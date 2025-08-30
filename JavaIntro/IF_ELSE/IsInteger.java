@@ -9,15 +9,15 @@ public class IsInteger {
     double num = sc.nextDouble();
 
     // 1st Approach
-    if (num == (int) num)
-      System.out.println("The number is an Integer");
-    else
-      System.out.println("The number is not an Integer");
-    // 2nd Approach
-    // if (num % 1 == 0)
+    // if (num == (int) num)
     // System.out.println("The number is an Integer");
     // else
     // System.out.println("The number is not an Integer");
+    // 2nd Approach
+    if (num % 1 == 0)
+      System.out.println("The number is an Integer");
+    else
+      System.out.println("The number is not an Integer");
     sc.close();
   }
 }
