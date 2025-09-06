@@ -1,4 +1,4 @@
-package JavaIntro.Patterns;
+package JavaIntro.Patterns.SquareRectangle;
 
 public class Solidalpha {
   public static void main(String[] args) {

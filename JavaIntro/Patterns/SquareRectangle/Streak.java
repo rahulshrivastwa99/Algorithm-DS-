@@ -1,0 +1,1 @@
+package JavaIntro.Patterns.SquareRectangle;

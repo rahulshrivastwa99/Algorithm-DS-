@@ -1,4 +1,4 @@
-package JavaIntro.Patterns;
+package JavaIntro.Patterns.SquareRectangle;
 
 import java.util.Scanner;
 

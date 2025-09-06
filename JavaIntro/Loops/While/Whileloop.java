@@ -1,4 +1,4 @@
-package JavaIntro.Loops;
+package JavaIntro.Loops.While;
 
 public class Whileloop {
 

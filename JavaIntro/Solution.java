@@ -5,8 +5,9 @@ package JavaIntro;
 
 // public class Solution {
 // public static void solve() {
-Scanner sc = new Scanner(System.in);
-int year = sc.nextInt();
+Scanner sc=new Scanner(System.in);
+
+int year=sc.nextInt();
 // // code here
 // if (year % 4 == 0)
 // System.out.print("True");

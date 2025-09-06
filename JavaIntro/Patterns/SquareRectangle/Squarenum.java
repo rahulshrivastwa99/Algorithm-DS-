@@ -1,4 +1,4 @@
-package JavaIntro.Patterns;
+package JavaIntro.Patterns.SquareRectangle;
 
 public class Squarenum {
   public static void main(String[] args) {
