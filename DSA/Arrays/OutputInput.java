@@ -27,16 +27,20 @@ public class OutputInput {
 
     int[] list = new int[size];
 
-    System.out.println("Enter " + size + " elements:");
+    System.out.print("Enter " + size + " elements:");
     for (int i = 0; i < list.length; i++) {
       list[i] = sc.nextInt();
     }
 
     // Printing the array elements
-    System.out.println("Array elements are:");
+    System.out.println("Array positive  elements are:");
+    for (int i = 0; i < list.length; i++) {
+      System.out.println(i + " -> " + list[i]);
+    }
+
+    System.out.println("Array negative  elements are:");
     for (int i = 0; i < list.length; i++) {
       System.out.println(i + " -> " + -1 * list[i]);
-      System.out.println(i + " -> " + list[i]);
     }
 
     sc.close();
