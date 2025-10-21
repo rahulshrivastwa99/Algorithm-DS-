@@ -2,8 +2,7 @@ package DSA.Arrays;
 
 import java.util.Random;
 
-public class PrintMax {
-
+public class random {
   public static void main(String[] args) {
     int n = 5; // size of the array
     int[] arr = new int[n];
@@ -16,13 +15,6 @@ public class PrintMax {
     }
     for (int i = 0; i < arr.length; i++)
       System.out.println("Array filled with" + "  " + arr[i]);
-
-    int max = Integer.MIN_VALUE;
-    for (int i = 0; i < arr.length; i++) {
-      if (arr[i] > max) {
-        max = arr[i];
-      }
-    }
-    System.out.println(max);
   }
+
 }
