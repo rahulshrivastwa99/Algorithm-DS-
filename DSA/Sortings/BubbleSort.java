@@ -4,14 +4,66 @@ public class BubbleSort {
 
   public static void bubbleSort(int[] arr) {
     int n = arr.length;
+    // for (int i = 0; i < n - 1; i++) {
+    // for (int j = 0; j < n - 1; j++) {
+    // if (arr[j] > arr[j + 1]) {
+    // // swap arr[j] and arr[j+1]
+    // int temp = arr[j];
+    // arr[j] = arr[j + 1];
+    // arr[j + 1] = temp;
+    // }
+    // }
+    // }
+
+    // Optimized Bubble Sort
     for (int i = 0; i < n - 1; i++) {
-      for (int j = 0; j < n - 1; j++) {
+      boolean swapped = false;
+      for (int j = 0; j < n - 1 - i; j++) {
         if (arr[j] > arr[j + 1]) {
           // swap arr[j] and arr[j+1]
           int temp = arr[j];
           arr[j] = arr[j + 1];
           arr[j + 1] = temp;
+          swapped = true;
         }
+      }
+      // If no two elements were swapped by inner loop, then break
+      if (!swapped) {
+        break;
+      }
+    }
+  }
+
+  public static void ReversebubbleSort(int[] arr) {
+    int n = arr.length;
+
+    // for (int i = 0; i < n - 1; i++) {
+    // for (int j = n - 1; j > i; j--) {
+    // if (arr[j] > arr[j - 1]) { // bubble larger element to the LEFT
+    // int temp = arr[j];
+    // arr[j] = arr[j - 1];
+    // arr[j - 1] = temp;
+    // }
+    // }
+    // }
+
+    // // Optimized Bubble Sort
+    for (int i = 0; i < n - 1; i++) {
+      boolean swapped = false;
+
+      // Move from right to left
+      for (int j = n - 1; j > i; j--) {
+        if (arr[j] > arr[j - 1]) { // bubble larger element to LEFT
+          int temp = arr[j];
+          arr[j] = arr[j - 1];
+          arr[j - 1] = temp;
+          swapped = true;
+        }
+      }
+
+      // If no swap happened → array already sorted → break
+      if (!swapped) {
+        break;
       }
     }
   }
@@ -19,7 +71,13 @@ public class BubbleSort {
   public static void main(String[] args) {
     int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
     bubbleSort(arr);
-    System.out.println("Sorted array:");
+    System.out.print("Sorted array: ");
+    for (int num : arr) {
+      System.out.print(num + " ");
+    }
+    System.out.println();
+    ReversebubbleSort(arr);
+    System.out.print("Reverse Sorted array: ");
     for (int num : arr) {
       System.out.print(num + " ");
     }

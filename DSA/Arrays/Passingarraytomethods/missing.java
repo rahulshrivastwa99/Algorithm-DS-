@@ -8,10 +8,15 @@ public class missing {
     for (int value : arr) {
       arraySum += value;
     }
-
     long missingNumber = sum - arraySum;
     System.out.println("Missing number: " + missingNumber);
+
+    for (int value : arr) {
+      System.out.println(value);
+    }
+
   }
+
 }
 
 /*
