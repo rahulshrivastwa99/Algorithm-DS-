@@ -29,7 +29,7 @@ public class Duplicate {
     // System.out.println(index);
     // }
     // }
-    // APPROACH 4 USING SORTING
+    // APPROACH 4 USING Sum differnce formula
     int sum = 0;
     int n = 0; // this should store the MAX value, not length!!
 

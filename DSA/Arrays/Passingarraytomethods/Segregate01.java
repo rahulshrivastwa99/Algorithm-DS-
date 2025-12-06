@@ -9,9 +9,9 @@ public class Segregate01 {
 
     while (start < end) {
       if (arr[start] == 1 && arr[end] == 0) {
-        int temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
+        int temp = arr[start]; // 1010100
+        arr[start] = arr[end]; // 0010101
+        arr[end] = temp; // 0000111
         start++;
         end--;
       }
