@@ -38,7 +38,7 @@ public class maxSumInrow {
         maxRow = i;
       }
     }
-
+//Github Streakkkk
     // Final result print
     System.out.println(
         "Max sum in a row is " + maxSum + " and the row is " + maxRow);
