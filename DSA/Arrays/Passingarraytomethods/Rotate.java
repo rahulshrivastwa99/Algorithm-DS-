@@ -74,17 +74,26 @@ public class Rotate {
   }
 
   // Helper function to reverse part of array
-  public static void reverse(int[] arr, int start, int end) {
-    while (start < end) {
-      int temp = arr[start];
-      arr[start] = arr[end];
-      arr[end] = temp;
-      start++;
-      end--;
-    }
-  }
   // public static void reverse(int[] arr, int start, int end) {
-  //   while (start < end) {
+    //   while (start < end) {
+      // public static void reverse(int[] arr, int start, int end) {
+      //   while (start < end) {
+      //     int temp = arr[start];
+      //     arr[start] = arr[end];
+      //     arr[end] = temp;
+      //     start++;
+      //     end--;
+      //   }
+      // }
+      public static void reverse(int[] arr, int start, int end) {
+        while (start < end) {
+          int temp = arr[start];
+          arr[start] = arr[end];
+          arr[end] = temp;
+          start++;
+          end--;
+        }
+      }
   //     int temp = arr[start];
   //     arr[start] = arr[end];
   //     arr[end] = temp;
