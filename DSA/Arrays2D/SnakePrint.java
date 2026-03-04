@@ -28,3 +28,7 @@ public class SnakePrint {
 // output will be 1 2 3 4
 // 8 7 6 5
 // 9 10 11 12
+
+// package DSA.Arrays2D;
+// public class SnakePrint {
+// public static void main(String[] args) {
