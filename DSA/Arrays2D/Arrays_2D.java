@@ -43,5 +43,7 @@ public class Arrays_2D {
       // System.out.println();
     }
     System.out.println("Sum of all elements in 2D array is " + sum);
+    System.out.println("Sum of all elements in 2D array is " + sum);
+    System.out.println("Sum of all elements in 2D array is " + sum);
   }
 }
