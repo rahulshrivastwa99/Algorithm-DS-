@@ -14,6 +14,10 @@ public class maxSumInrow {
     // taaki first row ka sum definitely isse bada ho
     int maxSum = Integer.MIN_VALUE;
     int maxSum = Integer.MIN_VALUE;
+    int maxSum = Integer.MIN_VALUE;
+    int maxSum = Integer.MIN_VALUE;
+    int maxSum = Integer.MIN_VALUE;
+    int maxSum = Integer.MIN_VALUE;
     // int maxSum = Integer.MIN_VALUE;
     // int maxSum = Integer.MIN_VALUE;
 
