@@ -13,11 +13,6 @@ public class maxSumInrow {
     // maxSum ko sabse chhoti possible value se initialize kiya
     // taaki first row ka sum definitely isse bada ho
     int maxSum = Integer.MIN_VALUE;
-    int maxSum = Integer.MIN_VALUE;
-    int maxSum = Integer.MIN_VALUE;
-    int maxSum = Integer.MIN_VALUE;
-    int maxSum = Integer.MIN_VALUE;
-    int maxSum = Integer.MIN_VALUE;
     // int maxSum = Integer.MIN_VALUE;
     // int maxSum = Integer.MIN_VALUE;
 
