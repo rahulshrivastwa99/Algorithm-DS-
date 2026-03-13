@@ -13,6 +13,9 @@ public class ForEachLoop {
       for (int element : a) {
         System.out.print(element + " ");
       }
+      for (int element : a) {
+        System.out.print(element + " ");
+      }
 
     }
   }
