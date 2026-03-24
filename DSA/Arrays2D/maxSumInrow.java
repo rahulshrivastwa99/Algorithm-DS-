@@ -46,20 +46,6 @@ public class maxSumInrow {
     //github streak
     System.out.println(
         "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
-        "Max sum in a row is " + maxSum + " and the row is " + maxRow);
 
     System.out.println(maxSum + " " + maxRow);
   }
