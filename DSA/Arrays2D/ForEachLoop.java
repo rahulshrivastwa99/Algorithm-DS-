@@ -11,9 +11,9 @@ public class ForEachLoop {
     System.out.println("Printing 2D array in column-wise manner");
     for (int[] a : arr) {
       for (int element : a) {
-        System.out.print(element + " ");
       }
       for (int element : a) {
+        System.out.print(element + " ");
         System.out.print(element + " ");
         System.out.print(element + " ");
         System.out.print(element + " ");
