@@ -12,6 +12,8 @@ public class BasicRecursion {
   }
   public static void ajay() {
     System.out.println("ajay");
+    System.out.println("ajay");
+    System.out.println("ajay");
 
   }
 }
