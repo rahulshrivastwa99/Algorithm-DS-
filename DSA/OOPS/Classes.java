@@ -12,6 +12,8 @@ public class Classes {
 
     pen1.write();
     pen1.printinfo();
+    pen1.printinfo();
+    pen1.printinfo();
     pen2.printinfo();
   }
 }
